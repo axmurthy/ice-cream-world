@@ -1,0 +1,214 @@
+area_code,area_name,m49_code,iso2,iso3,is_country
+1,Armenia,'051,AM,ARM,true
+2,Afghanistan,'004,AF,AFG,true
+3,Albania,'008,AL,ALB,true
+4,Algeria,'012,DZ,DZA,true
+7,Angola,'024,AO,AGO,true
+8,Antigua and Barbuda,'028,AG,ATG,true
+9,Argentina,'032,AR,ARG,true
+10,Australia,'036,AU,AUS,true
+11,Austria,'040,AT,AUT,true
+12,Bahamas,'044,BS,BHS,true
+13,Bahrain,'048,BH,BHR,true
+14,Barbados,'052,BB,BRB,true
+16,Bangladesh,'050,BD,BGD,true
+18,Bhutan,'064,BT,BTN,true
+19,Bolivia (Plurinational State of),'068,BO,BOL,true
+20,Botswana,'072,BW,BWA,true
+21,Brazil,'076,BR,BRA,true
+23,Belize,'084,BZ,BLZ,true
+25,Solomon Islands,'090,SB,SLB,true
+27,Bulgaria,'100,BG,BGR,true
+28,Myanmar,'104,MM,MMR,true
+32,Cameroon,'120,CM,CMR,true
+33,Canada,'124,CA,CAN,true
+35,Cabo Verde,'132,CV,CPV,true
+38,Sri Lanka,'144,LK,LKA,true
+40,Chile,'152,CL,CHL,true
+41,China; mainland,'156,CN,CHN,true
+44,Colombia,'170,CO,COL,true
+45,Comoros,'174,KM,COM,true
+46,Congo,'178,CG,COG,true
+48,Costa Rica,'188,CR,CRI,true
+49,Cuba,'192,CU,CUB,true
+50,Cyprus,'196,CY,CYP,true
+52,Azerbaijan,'031,AZ,AZE,true
+54,Denmark,'208,DK,DNK,true
+56,Dominican Republic,'214,DO,DOM,true
+57,Belarus,'112,BY,BLR,true
+58,Ecuador,'218,EC,ECU,true
+59,Egypt,'818,EG,EGY,true
+60,El Salvador,'222,SV,SLV,true
+63,Estonia,'233,EE,EST,true
+66,Fiji,'242,FJ,FJI,true
+67,Finland,'246,FI,FIN,true
+68,France,'250,FR,FRA,true
+70,French Polynesia,'258,PF,PYF,true
+72,Djibouti,'262,DJ,DJI,true
+73,Georgia,'268,GE,GEO,true
+74,Gabon,'266,GA,GAB,true
+75,Gambia,'270,GM,GMB,true
+79,Germany,'276,DE,DEU,true
+80,Bosnia and Herzegovina,'070,BA,BIH,true
+81,Ghana,'288,GH,GHA,true
+83,Kiribati,'296,KI,KIR,true
+84,Greece,'300,GR,GRC,true
+86,Grenada,'308,GD,GRD,true
+89,Guatemala,'320,GT,GTM,true
+90,Guinea,'324,GN,GIN,true
+91,Guyana,'328,GY,GUY,true
+93,Haiti,'332,HT,HTI,true
+95,Honduras,'340,HN,HND,true
+96,China; Hong Kong SAR,'344,HK,HKG,true
+97,Hungary,'348,HU,HUN,true
+98,Croatia,'191,HR,HRV,true
+99,Iceland,'352,IS,ISL,true
+100,India,'356,IN,IND,true
+101,Indonesia,'360,ID,IDN,true
+102,Iran (Islamic Republic of),'364,IR,IRN,true
+103,Iraq,'368,IQ,IRQ,true
+104,Ireland,'372,IE,IRL,true
+105,Israel,'376,IL,ISR,true
+106,Italy,'380,IT,ITA,true
+107,Côte d'Ivoire,'384,CI,CIV,true
+108,Kazakhstan,'398,KZ,KAZ,true
+109,Jamaica,'388,JM,JAM,true
+112,Jordan,'400,JO,JOR,true
+113,Kyrgyzstan,'417,KG,KGZ,true
+114,Kenya,'404,KE,KEN,true
+115,Cambodia,'116,KH,KHM,true
+116,Democratic People's Republic of Korea,'408,KP,PRK,true
+117,Republic of Korea,'410,KR,KOR,true
+118,Kuwait,'414,KW,KWT,true
+119,Latvia,'428,LV,LVA,true
+120,Lao People's Democratic Republic,'418,LA,LAO,true
+121,Lebanon,'422,LB,LBN,true
+122,Lesotho,'426,LS,LSO,true
+123,Liberia,'430,LR,LBR,true
+124,Libya,'434,LY,LBY,true
+126,Lithuania,'440,LT,LTU,true
+127,Marshall Islands,'584,MH,MHL,true
+128,China; Macao SAR,'446,MO,MAC,true
+129,Madagascar,'450,MG,MDG,true
+130,Malawi,'454,MW,MWI,true
+131,Malaysia,'458,MY,MYS,true
+132,Maldives,'462,MV,MDV,true
+134,Malta,'470,MT,MLT,true
+136,Mauritania,'478,MR,MRT,true
+137,Mauritius,'480,MU,MUS,true
+138,Mexico,'484,MX,MEX,true
+141,Mongolia,'496,MN,MNG,true
+143,Morocco,'504,MA,MAR,true
+144,Mozambique,'508,MZ,MOZ,true
+145,Micronesia (Federated States of),'583,FM,FSM,true
+146,Republic of Moldova,'498,MD,MDA,true
+147,Namibia,'516,NA,NAM,true
+148,Nauru,'520,NR,NRU,true
+149,Nepal,'524,NP,NPL,true
+150,Netherlands (Kingdom of the),'528,NL,NLD,true
+153,New Caledonia,'540,NC,NCL,true
+154,North Macedonia,'807,MK,MKD,true
+155,Vanuatu,'548,VU,VUT,true
+156,New Zealand,'554,NZ,NZL,true
+157,Nicaragua,'558,NI,NIC,true
+158,Niger,'562,NE,NER,true
+159,Nigeria,'566,NG,NGA,true
+162,Norway,'578,NO,NOR,true
+165,Pakistan,'586,PK,PAK,true
+166,Panama,'591,PA,PAN,true
+167,Czechia,'203,CZ,CZE,true
+168,Papua New Guinea,'598,PG,PNG,true
+169,Paraguay,'600,PY,PRY,true
+170,Peru,'604,PE,PER,true
+171,Philippines,'608,PH,PHL,true
+173,Poland,'616,PL,POL,true
+174,Portugal,'620,PT,PRT,true
+175,Guinea-Bissau,'624,GW,GNB,true
+176,Timor-Leste,'626,TL,TLS,true
+179,Qatar,'634,QA,QAT,true
+181,Zimbabwe,'716,ZW,ZWE,true
+183,Romania,'642,RO,ROU,true
+184,Rwanda,'646,RW,RWA,true
+185,Russian Federation,'643,RU,RUS,true
+188,Saint Kitts and Nevis,'659,KN,KNA,true
+189,Saint Lucia,'662,LC,LCA,true
+191,Saint Vincent and the Grenadines,'670,VC,VCT,true
+193,Sao Tome and Principe,'678,ST,STP,true
+194,Saudi Arabia,'682,SA,SAU,true
+195,Senegal,'686,SN,SEN,true
+196,Seychelles,'690,SC,SYC,true
+197,Sierra Leone,'694,SL,SLE,true
+198,Slovenia,'705,SI,SVN,true
+199,Slovakia,'703,SK,SVK,true
+202,South Africa,'710,ZA,ZAF,true
+203,Spain,'724,ES,ESP,true
+207,Suriname,'740,SR,SUR,true
+208,Tajikistan,'762,TJ,TJK,true
+209,Eswatini,'748,SZ,SWZ,true
+210,Sweden,'752,SE,SWE,true
+211,Switzerland,'756,CH,CHE,true
+212,Syrian Arab Republic,'760,SY,SYR,true
+213,Turkmenistan,'795,TM,TKM,true
+214,China; Taiwan Province of,'158,TW,TWN,true
+215,United Republic of Tanzania,'834,TZ,TZA,true
+216,Thailand,'764,TH,THA,true
+219,Tonga,'776,TO,TON,true
+220,Trinidad and Tobago,'780,TT,TTO,true
+221,Oman,'512,OM,OMN,true
+222,Tunisia,'788,TN,TUN,true
+223,Türkiye,'792,TR,TUR,true
+225,United Arab Emirates,'784,AE,ARE,true
+226,Uganda,'800,UG,UGA,true
+227,Tuvalu,'798,TV,TUV,true
+229,United Kingdom of Great Britain and Northern Ireland,'826,GB,GBR,true
+230,Ukraine,'804,UA,UKR,true
+231,United States of America,'840,US,USA,true
+233,Burkina Faso,'854,BF,BFA,true
+234,Uruguay,'858,UY,URY,true
+235,Uzbekistan,'860,UZ,UZB,true
+236,Venezuela (Bolivarian Republic of),'862,VE,VEN,true
+237,Viet Nam,'704,VN,VNM,true
+238,Ethiopia,'231,ET,ETH,true
+244,Samoa,'882,WS,WSM,true
+249,Yemen,'887,YE,YEM,true
+250,Democratic Republic of the Congo,'180,CD,COD,true
+251,Zambia,'894,ZM,ZMB,true
+255,Belgium,'056,BE,BEL,true
+256,Luxembourg,'442,LU,LUX,true
+272,Serbia,'688,RS,SRB,true
+273,Montenegro,'499,ME,MNE,true
+351,China,'159,,,false
+5000,World,'001,,,false
+5100,Africa,'002,,,false
+5101,Eastern Africa,'014,,,false
+5102,Middle Africa,'017,,,false
+5103,Northern Africa,'015,,,false
+5104,Southern Africa,'018,,,false
+5105,Western Africa,'011,,,false
+5200,Americas,'019,,,false
+5203,Northern America,'021,,,false
+5204,Central America,'013,,,false
+5206,Caribbean,'029,,,false
+5207,South America,'005,,,false
+5300,Asia,'142,,,false
+5301,Central Asia,'143,,,false
+5302,Eastern Asia,'030,,,false
+5303,Southern Asia,'034,,,false
+5304,South-eastern Asia,'035,,,false
+5305,Western Asia,'145,,,false
+5400,Europe,'150,,,false
+5401,Eastern Europe,'151,,,false
+5402,Northern Europe,'154,,,false
+5403,Southern Europe,'039,,,false
+5404,Western Europe,'155,,,false
+5500,Oceania,'009,,,false
+5501,Australia and New Zealand,'053,,,false
+5502,Melanesia,'054,,,false
+5503,Micronesia,'057,,,false
+5504,Polynesia,'061,,,false
+5707,European Union (27),'097,,,false
+5801,Least Developed Countries (LDCs),'199,,,false
+5802,Land Locked Developing Countries (LLDCs),'432,,,false
+5803,Small Island Developing States (SIDS),'722,,,false
+5815,Low Income Food Deficit Countries (LIFDCs),'901,,,false
+5817,Net Food Importing Developing Countries (NFIDCs),'902,,,false

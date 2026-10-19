@@ -1,0 +1,14 @@
+# Copy this file to ~/.dbt/profiles.yml, or keep a private copy at dbt/profiles.yml
+# (that path is gitignored). Set GCP_PROJECT to the sandbox project id.
+# BQ_LOCATION must match the location used by ingest/load_faostat.py (default US).
+
+ice_cream_world:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: oauth
+      project: "{{ env_var('GCP_PROJECT') }}"
+      dataset: analytics
+      location: US
+      threads: 4

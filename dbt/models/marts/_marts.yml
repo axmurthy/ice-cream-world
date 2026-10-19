@@ -1,0 +1,55 @@
+version: 2
+
+models:
+  - name: mart_ice_cream_country_year
+    description: Country-year mart for the line chart and the trade table. One row per country per year.
+    columns:
+      - name: area_code
+        description: FAO area code for a country. World, regions, and the China aggregate are excluded.
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_population')
+                field: area_code
+      - name: area_name
+        tests: [not_null]
+      - name: iso3
+        description: ISO 3166 alpha-3 code. Looker Studio uses this as the map country.
+        tests: [not_null]
+      - name: year
+        tests: [not_null]
+      - name: import_tonnes
+        description: Ice cream imported, in tonnes.
+      - name: export_tonnes
+        description: Ice cream exported, in tonnes.
+      - name: trade_balance_tonnes
+        description: Exports minus imports, in tonnes. Positive means a net exporter.
+      - name: production_tonnes
+        description: Reported production in tonnes. Null for most countries.
+      - name: kg_per_person_year
+        description: FAO food supply converted from grams per person per day. Zero is not reliable consumption.
+      - name: import_tonnes_yoy
+        description: Change in import tonnes from the previous year for the same country.
+      - name: export_tonnes_yoy
+        description: Change in export tonnes from the previous year for the same country.
+      - name: import_rank
+        description: Rank of import tonnes within the year. 1 is the largest importer.
+      - name: export_rank
+        description: Rank of export tonnes within the year. 1 is the largest exporter.
+
+  - name: mart_ice_cream_latest
+    description: One row per country for the latest year. Source for the map, the bar chart, and the headline.
+    columns:
+      - name: area_code
+        tests: [not_null]
+      - name: area_name
+        tests: [not_null]
+      - name: iso3
+        tests: [not_null]
+      - name: year
+        tests: [not_null]
+      - name: import_rank
+        tests: [not_null]
+      - name: export_rank
+        tests: [not_null]

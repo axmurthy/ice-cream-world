@@ -1,0 +1,32 @@
+name: ice_cream_world
+version: "1.0.0"
+config-version: 2
+profile: ice_cream_world
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  ice_cream_world:
+    staging:
+      +materialized: view
+    intermediate:
+      +materialized: view
+    marts:
+      +materialized: table
+
+seeds:
+  ice_cream_world:
+    fao_area_iso3:
+      +column_types:
+        area_code: int64
+        area_name: string
+        m49_code: string
+        iso2: string
+        iso3: string
+        is_country: boolean

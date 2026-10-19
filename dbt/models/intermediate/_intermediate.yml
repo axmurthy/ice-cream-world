@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: int_ice_cream_country_year
+    description: >
+      Country-year grain. Trade balance is exports minus imports, in tonnes.
+      kg_per_person_year converts FAO grams per person per day into kilograms per year.
+      food_supply_estimated_zero is true when FAO's food-supply tonnes are 0 even though
+      the country imported or exported ice cream.
+    columns:
+      - name: area_code
+        tests: [not_null]
+      - name: year
+        tests: [not_null]
+      - name: iso3
+        tests: [not_null]

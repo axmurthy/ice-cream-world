@@ -1,0 +1,35 @@
+version: 2
+
+models:
+  - name: stg_ice_cream
+    description: Renamed ice cream measures, including FAO aggregate areas.
+    columns:
+      - name: area_code
+        tests: [not_null]
+      - name: year
+        tests: [not_null]
+      - name: element_code
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: [5510, 5610, 5910, 5141, 665]
+                quote: false
+      - name: value
+        tests: [not_null]
+      - name: item_code
+        tests:
+          - accepted_values:
+              arguments:
+                values: [910]
+                quote: false
+
+  - name: stg_population
+    description: Total population, both sexes, in thousands and in persons.
+    columns:
+      - name: area_code
+        tests: [not_null]
+      - name: year
+        tests: [not_null]
+      - name: population_persons
+        tests: [not_null]

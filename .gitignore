@@ -1,0 +1,27 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.cursor/
+.idea/
+.vscode/
+*.log
+.user.yml
+
+# Source zips and filtered extracts are rebuilt by ingest/load_faostat.py.
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Warehouse credentials and the local dbt profile stay off git.
+dbt/profiles.yml
+profiles.yml
+*.env
+*creds.json
+*credentials.json
+service-account*.json
+
+dbt/target/
+dbt/dbt_packages/
+dbt/logs/

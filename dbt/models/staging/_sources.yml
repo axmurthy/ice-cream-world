@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: raw
+    description: >
+      Tables loaded by ingest/load_faostat.py. dbt reads them and does not rebuild them.
+      FAO headers with spaces or parentheses are loaded as BigQuery-safe names
+      (Area Code -> Area_Code, Area Code (M49) -> Area_Code_M49).
+    tables:
+      - name: ice_cream_sua
+        description: Supply Utilization Accounts rows for FAO item 910, ice cream and other edible ice.
+      - name: population
+        description: FAO total population, both sexes (element 511). The value is in thousands of people.
